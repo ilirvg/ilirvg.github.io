@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.info {
+  width: 40%;
+}
+
+.info-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.personal-info p {
+  margin: 0;
+}
+
+.personal-info span {
+  font-weight: 200;
+  display: inline-block;
+  width: 60px !important;
+}
+
+.personal-info a {
+  color: black;
+}
+
+.info-container img {
+  width: 270px;
+  border-radius: 3px;
+  /* border-radius: 50%; */
+}
+
+.work-container {
+  margin-top: 20px;
+  flex-grow: 1;
+  max-width: 60%;
+  height: 95vh;
+  overflow: auto;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.work-container > div {
+  margin-bottom: 60px;
+}
+
+.work-container .desc {
+  width: 85%;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.work-container .link {
+  margin: 20px 0 !important;
+}
+
+.images {
+  width: 85%;
+  display: flex;
+}
+
+.images img {
+  flex-grow: 1;
+  width: 100px;
+  object-fit: cover;
+}
+
+.work-container .link button {
+  border: none;
+  padding: 12px 28px;
+  border-radius: 3px;
+  background-color: #454545;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  font-size: 12px;
+}
+
+.work-container > div > iframe {
+  width: 85%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.work-container .desc {
+  font-weight: 200;
+}
+
+.work-container > div > h4 {
+  font-weight: 500;
+}
+
+.work-container .hr {
+  width: 80%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info-container {
+    width: 100%;
+  }
+
+  .images {
+    width: 100%;
+  }
+  .work-container {
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .desc {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .work-container > div > iframe {
+    width: 100%;
+  }
+
+  .work-container .hr {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
